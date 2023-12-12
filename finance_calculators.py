@@ -53,6 +53,6 @@ if calculation_choice_upper == "BOND":
     monthly_interest_rate = (interest_rate_bond/100)/12
     number_of_months = float(input("Please enter the number of months to repay the bond: "))
     repayment = (monthly_interest_rate * value_of_loan) / (1 - (1 + monthly_interest_rate)**(-abs(number_of_months)))
-    print(f"The total amount of interest you will be repaying on your loan of {number_of_months} months at {interest_rate_bond}% is: £", round(repayment, 2)
+    print(f"The total amount of interest you will be repaying on your loan of {number_of_months} months at {interest_rate_bond}% is: £", round(repayment, 2))
           
 # I tested this code many times on my 70+ year old mother which pulled up many issues I hadn't foreseen! I can understand the importance of iterating through the testing process now to find bugs!!!
